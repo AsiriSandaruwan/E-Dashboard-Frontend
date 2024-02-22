@@ -7,6 +7,24 @@
   pointer-events: none;
 }
 
+.logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  float: left;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 10px;
+}
+
+.nav-right {
+  text-align: right;
+}
+
+.nav-left {
+  text-align: left;
+}
+
 .nav-ul {
   padding: 5px;
   margin: 0px;
@@ -32,9 +50,17 @@
   text-align: center;
 }
 
-.register {
+.register, .product , .login {
   margin-left: 30%;
   text-align: left;
+}
+
+.invalid-input{
+  display: block;
+  color: red;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .appButton {
