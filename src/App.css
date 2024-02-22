@@ -7,6 +7,57 @@
   pointer-events: none;
 }
 
+.nav-ul {
+  padding: 5px;
+  margin: 0px;
+  background-color: skyblue;
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  background-color: skyblue;
+  width: 100%;
+  text-align: center;
+}
+
+.register {
+  margin-left: 30%;
+  text-align: left;
+}
+
+.appButton {
+  margin: 20px;
+  padding: 10px;
+  width: 150px;
+  background-color: skyblue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.inputBox {
+  padding: 7px;
+  margin: 20px;
+  display: block;
+  border: 2px solid skyblue;
+  border-radius: 5px;
+  width: 300px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
